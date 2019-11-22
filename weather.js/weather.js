@@ -32,8 +32,14 @@ button.addEventListener('click', async function fetcher() {
     day2w.innerHTML = weatherReading2
 
 
+
+
 }
 )
+document.addEventListener('DOMContentLoaded', function () {
+    var elems = document.querySelectorAll('.carousel');
+    var instances = M.Carousel.init(elems);
+});
 
 
 
